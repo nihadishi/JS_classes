@@ -22,8 +22,8 @@ class Dic{
 }
 
 const dict = new Dic('Explanatory Dict');
-dict.add('JavaScript ', 'popular programming language');
-dict.add('Web developer', 'Person creates new services and sites or maintains...');
+dict.add('JS', 'popular programming language');
+dict.add('Web developer', 'Person creates new services...');
 dict.remove('JS');
 dict.showAllWords();
 
